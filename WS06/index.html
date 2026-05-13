@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+
+    <style>
+      h1 {
+        color: #915d76;
+        font-size: 2em;
+      }
+    </style>
+    <title>My First HTML Page</title>
+
+    <div class="responsive-box">Resize the window to see the effect</div>
+    <div class="media-query-box">Resize the window to see the effect</div>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">My Page</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#">About Me</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact Me</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <body style="background-color: #afdde4">
+    <blockquote class="quote">carpe diem</blockquote>
+    <header>
+      <h1>ELLEN JALKANEN</h1>
+    </header>
+
+    <p style="color: black">
+      I am 22 years old and I live in Helsinki. Currently I'm in Bali,
+      Indonesia. I am studying at Laurea University of Applied Sciences.
+    </p>
+    <img
+      src="Screenshot 2025-10-16 at 17.13.08.png"
+      width="200"
+      alt="Picture of me"
+      class="filter-image"
+    />
+    <div class="animation-box"></div>
+    <div class="content-box">
+      <main>
+        <section id="mystory">
+          <h3>My story</h3>
+          <p>
+            My story is pretty simple—I love being creative and trying new
+            things. I'm really into fashion, photography, and traveling, and I
+            enjoy capturing moments and finding inspiration from different
+            places and people. I like meeting new people, learning about
+            different cultures, and just experiencing life in new ways. I'd say
+            I'm a pretty chill person, but I also work hard and like staying
+            productive. I'm always looking for new opportunities and adventures.
+          </p>
+        </section>
+      </main>
+    </div>
+
+    <div class="container">
+      <div class="row g-3">
+        <div class="col-md-4 col-12 text-center">topic 1</div>
+        <div class="col-md-4 col-12 text-center">topic 2</div>
+        <div class="col-md-4 col-12 text-center">topic 3</div>
+      </div>
+    </div>
+
+    <button class="transition-button">Hover me</button>
+    <button class="btn btn-outline-primary">Blue</button>
+    <button class="btn btn-outline-secondary">Grey</button>
+    <button class="btn btn-outline-success">Green</button>
+
+    <div class="card" style="width: 33%; margin: 20px">
+      <img
+        src="./4C1DF196-447D-407D-81B1-3BF3056354F8_4_5005_c.jpeg"
+        class="card-img-top"
+        alt="Card Image"
+      />
+      <div class="card-body">
+        <h5 class="card-title">Digi picture</h5>
+        <p class="card-text">This is a digital picture from Vietnam.</p>
+        <a href="#" class="btn btn-outline-primary">More</a>
+      </div>
+    </div>
+    <main>
+      <section id="myhobbies">
+        <h2>My hobbies</h2>
+        <ul class="hidden-list">
+          <li>yoga</li>
+          <li>cooking</li>
+          <li>dancing</li>
+          <li>travelling</li>
+          <li>reading</li>
+          <li>photography</li>
+        </ul>
+      </section>
+    </main>
+
+    <div class="grid-container">
+      <div class="grid-item">yoga</div>
+      <div class="grid-item">cooking</div>
+      <div class="grid-item">dancing</div>
+      <div class="grid-item">travelling</div>
+      <div class="grid-item">reading</div>
+      <div class="grid-item">photography</div>
+    </div>
+
+    <div class="flex-container">
+      <div class="box">Box 1</div>
+      <div class="box">Box 2</div>
+      <div class="box">Box 3</div>
+    </div>
+
+    <a href="https://fi.pinterest.com/">Visit Pinterest</a>
+    <table>
+      <tr>
+        <th>Courses in fin</th>
+        <th>Courses in eng</th>
+      </tr>
+      <tr>
+        <td>Espanjan perusteet</td>
+        <td>Basics of digital image editing</td>
+      </tr>
+      <tr>
+        <td>Tapahtumatuotannon perusteet</td>
+        <td>Building webpages with online shop functionality</td>
+      </tr>
+    </table>
+    <main>
+      <section id="contact">
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" /><br /><br />
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" /><br /><br />
+          <input type="submit" value="Submit" />
+        </form>
+      </section>
+    </main>
+
+    <div class="alert alert-info" role="alert">
+      This is an info alert—check it out!
+    </div>
+    <footer>
+      <p>Copyright 2025</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
